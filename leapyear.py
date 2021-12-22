@@ -1,6 +1,6 @@
 # ----- LEAPYEAR.PY -----
 # Author: Matthew Chin
-# GitHub: https://github.com/mattjchin
+# GitHub: https://github.com/matthewjchin
 #
 # This program features the use of functions aside from a main function that
 # also takes in user input as the program begins from the main function.
@@ -35,10 +35,8 @@ def isLeapYear(year):
         if year%100==0:
             if(year%400==0):
                 return True
-            else:
-                return False
-        else:
-            return True
+            return False
+	return True
     else:
         return False
 
@@ -47,9 +45,11 @@ def isLeapYear(year):
 # Calls the isLeapYear function with the year that was user input converted into int type
 def main():
 	print("You will input a year and will find if it is a leap year. ")
-	userYear = int(input("Please enter a year with at least one digit: "))
+	userYear = int(input("Enter a year with at least one digit: "))
 	yearDetd = isLeapYear(userYear)
 	print(yearDetd)
 
+	
 # Call the main function
 main()
+
