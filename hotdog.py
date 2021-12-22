@@ -1,6 +1,6 @@
 # ----- HOTDOG.PY -----
 # Author: Matthew Chin
-# GitHub: https://github.com/mattjchin
+# GitHub: https://github.com/matthewjchin
 #
 # This program features the use of functions aside from a main function that
 # also takes in user input as the program begins from the main function.
